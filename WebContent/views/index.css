@@ -1,0 +1,25 @@
+* {
+	font-family: monospace;
+}
+.container {
+	width: 100%;
+	text-align: center;
+}
+.box-odd, .box-even {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin: -4px;
+}
+.box-odd:nth-of-type(odd) {
+	background-color: red;
+}
+.box-odd:nth-of-type(even) {
+	background-color: black;
+}
+.box-even:nth-of-type(even) {
+	background-color: red;
+}
+.box-even:nth-of-type(odd) {
+	background-color: black;
+}
